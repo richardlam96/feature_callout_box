@@ -1,13 +1,27 @@
 .feature-item-component {
   display: flex;
   flex-direction: row;
-  margin-bottom: 15px;
+  padding: 10px 8px;
   font-family: 'Quicksand', sans-serif;
+  bottom: 0;
+  cursor: default;
+  transition:
+    background 0.2s,
+    box-shadow 0.3s,
+    bottom 0.4s;
+}
+
+.feature-item-component:hover {
+  position: relative;
+  bottom: 5px;
+  background: #ddd;
+  box-shadow: -5px 5px #535c68;
+  font-weight: 550;
 }
 
 .feature-name {
   width: 50%;
-  text-align: right;
+  text-align: left;
   padding-right: 10px;
 }
 

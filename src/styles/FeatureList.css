@@ -1,5 +1,7 @@
 .feature-list-component {
   width: 30%;
+  min-width: 350px;
+  max-width: 550px;
   background: #fff;
   margin: 0 auto;
   padding: 30px;
