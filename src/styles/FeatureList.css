@@ -9,11 +9,6 @@
   border: 1px solid #535c68;
   box-sizing: border-box;
   box-shadow: -5px 5px #535c68;
-  animation: shadow-animation 5s infinite;
-}
-
-.feature-list-component:hover {
-  animation: none;
 }
 
 .feature-list-title i {
@@ -24,9 +19,9 @@
   border-radius: 50%;
   text-align: center;
   padding: 0;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
   animation: icon-jump 2.5s infinite;
 }
 
