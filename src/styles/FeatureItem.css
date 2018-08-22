@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   padding: 10px 8px;
-  font-family: 'Quicksand', sans-serif;
   bottom: 0;
   cursor: default;
   transition:

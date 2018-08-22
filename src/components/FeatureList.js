@@ -24,6 +24,8 @@ const FeatureList = () => {
   ];
 
 
+  let featureListTitle = "Risk Summary";
+
   let featureList = featureNames.map((featureName, idx) => (
     <li key={ idx }>
       <FeatureItem
@@ -35,9 +37,16 @@ const FeatureList = () => {
 
   return (
     <div className="feature-list-component">
+
+      <div className="feature-list-title">
+        { featureListTitle }
+        <i className="fa fa-exclamation"></i>
+      </div>
+
       <ul className="feature-list">
         { featureList }
       </ul>
+
     </div>
   );
 };
