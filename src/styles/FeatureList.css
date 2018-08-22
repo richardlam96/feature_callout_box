@@ -1,0 +1,15 @@
+.feature-list-component {
+  width: 30%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #535c68;
+  box-sizing: border-box;
+  box-shadow: -5px 5px #535c68;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
