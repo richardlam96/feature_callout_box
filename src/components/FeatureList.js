@@ -40,7 +40,6 @@ const FeatureList = () => {
 
       <div className="feature-list-title">
         { featureListTitle }
-        <i className="fa fa-exclamation"></i>
       </div>
 
       <ul className="feature-list">

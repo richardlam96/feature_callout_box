@@ -11,20 +11,6 @@
   box-shadow: -5px 5px #535c68;
 }
 
-.feature-list-title i {
-  position: relative;
-  float: right;
-  color: #fff;
-  background: #c0392b;
-  border-radius: 50%;
-  text-align: center;
-  padding: 0;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  animation: icon-jump 2.5s infinite;
-}
-
 .feature-list-title {
   font-size: 1.2em;
   margin-bottom: 15px;
@@ -37,9 +23,3 @@
   margin: 0;
 }
 
-@keyframes icon-jump {
-  0%, 6% { bottom: 0px; }
-  1%, 5% { bottom: 3px; }
-  2%, 4% { bottom: 6px; }
-  3% { bottom: 9px; }
-}
